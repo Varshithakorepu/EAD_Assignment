@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="port.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">My Portfolio</div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="menu-icon">&#9776;</div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, I'm <span>Varshitha</span></h3>
+            <h3>Student</h3>
+            <p>I'm studying Information Technology<br>
+                in the 5th semester at
+                Chaitanya Bharathi Institute of Technology.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/varshitha-korepu-a36231297" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Varshithakorepu" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <h3>Student</h3>
+            <p>I'm a 5th-semester Information Technology student at Chaitanya Bharathi Institute of Technology. Passionate about technology and coding, I am constantly learning and exploring new ways to improve my skills.
+                <br> I have experience in web development, and I am proficient in HTML, CSS, JavaScript, and Java. <br>
+                I enjoy solving complex problems and am eager to contribute to innovative projects that make a difference.
+             </p>
+             <p> I enjoy participating in hackathons, exploring new programming languages</p>
+            <a href="#" class="btn" id="download-cv">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li><i class="fas fa-code"></i>  HTML/CSS</li>
+            <li><i class="fas fa-code"></i>  JavaScript</li>
+            <li><i class="fas fa-database"></i>MySQL</li>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fab fa-java"></i> Java</li>
+            <li><i class="fas fa-cogs"></i> DSA</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>IPL Ticket Booking</h3>
+            <p>IPL Ticket Booking is a web-based platform built with HTML, CSS, PHP enabling cricket fans to easily secure seats for matches.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Registration Page</h3>
+            <p>The registration page, built with HTML, CSS, and JavaScript, allows users to enter and submit their information, which is then stored and dynamically displayed in a table on the same page. This setup ensures users can instantly view all registered participants in an organized and user-friendly manner.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
